@@ -1,4 +1,4 @@
-*Fake News Detection*
+**Fake News Detection**
 
 This repository contains a Streamlit application for detecting fake news using a PassiveAggressiveClassifier model. The application allows users to input news articles and predicts whether they are real or fake.
 
