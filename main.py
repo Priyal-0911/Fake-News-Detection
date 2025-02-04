@@ -4,8 +4,8 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import PassiveAggressiveClassifier
 
 # Load the model and vectorizer
-model_path = "/home/ml2/Desktop/vlNET/news_detect_model.pkl"
-vectorizer_path = "/home/ml2/Desktop/vlNET/tfidf_vectorizer.pkl"
+model_path = "model.pkl"
+vectorizer_path = "vectors.pkl"
 
 loaded_pac = joblib.load(model_path)
 loaded_tfidf = joblib.load(vectorizer_path)
